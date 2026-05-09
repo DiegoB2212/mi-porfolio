@@ -1,6 +1,11 @@
+const SECTION_HREFS = {
+  contact: "#contact",
+};
+
 export const Button = ({
   className = "",
   size = "default",
+  section,
   children,
   ...props
 }) => {
@@ -13,11 +18,26 @@ export const Button = ({
     lg: "px-8 py-4 text-lg",
   };
   const classes = `${baseClasses} ${sizeClasses[size]} ${className}`;
+
+  const content = (
+    <span className="relative flex items-center justify-center gap-2">
+      {children}
+    </span>
+  );
+
+  const href = section ? SECTION_HREFS[section] : undefined;
+
+  if (href) {
+    return (
+      <a href={href} className={`inline-flex ${classes}`} {...props}>
+        {content}
+      </a>
+    );
+  }
+
   return (
-    <button className={classes} {...props} >
-      <span className="relative flex items-center justify-center gap-2">
-        {children}
-      </span>
+    <button className={classes} {...props}>
+      {content}
     </button>
   );
 };

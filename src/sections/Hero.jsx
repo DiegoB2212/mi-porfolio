@@ -86,7 +86,7 @@ export const Hero = () => {
 
             {/* CTAs */}
             <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
-              <Button size="lg">
+              <Button size="lg" section="contact">
                 Contact Me <ArrowRight className="w-5 h-5" />
               </Button>
               <AnimatedBorderButton>
@@ -124,7 +124,7 @@ export const Hero = () => {
               />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src=""
+                  src="/public/foto-me.png"
                   alt="Diego Barrera"
                   className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />

@@ -1,20 +1,11 @@
 const experiences = [
   {
-    period: "2022 - 2023",
-    role: "Software Developer",
-    company: "SINAPSIS Research Group Universidad Santo Tomas",
+    period: "2025 - 2026",
+    role: "Incident Management System Developer in the Network Area",
+    company: "Internship Project Azteca Comunicaciones Colombia",
     description:
-      "Participated in the development of the SACES USTA project, focused on building a web application for managing classified university records, handling user interface design and implementation.",
-    technologies: ["SQL Server", "Javascript", ".NET"],
-    current: false,
-  },
-  {
-    period: "2022 - 2023",
-    role: "Academic Monitor",
-    company: "Universidad Santo Tomas",
-    description:
-      "I served as an academic monitor for the Programming II course in the Electronic Engineering faculty, providing lectures and guidance to students on topics such as Object-Oriented Programming, databases, software architecture, interface development, and socket-based communication.",
-    technologies: [".NET", "SQL Server"],
+      "Developed a web application for the creation and management of network incident reports. The solution included the implementation of AI for spellchecking, as well as a complete system for user, role, and credential recovery management, using .NET and SQL Server.",
+    technologies: [".NET", "SQL Server", "Javascript", "Python"],
     current: false,
   },
   {
@@ -27,12 +18,21 @@ const experiences = [
     current: false,
   },
   {
-    period: "2025 - 2026",
-    role: "Incident Management System Developer in the Network Area",
-    company: "Internship Project Azteca Comunicaciones Colombia",
+    period: "2022 - 2023",
+    role: "Academic Monitor",
+    company: "Universidad Santo Tomas",
     description:
-      "Developed a web application for the creation and management of network incident reports. The solution included the implementation of AI for spellchecking, as well as a complete system for user, role, and credential recovery management, using .NET and SQL Server.",
-    technologies: [".NET", "SQL Server", "Javascript", "Python"],
+      "I served as an academic monitor for the Programming II course in the Electronic Engineering faculty, providing lectures and guidance to students on topics such as Object-Oriented Programming, databases, software architecture, interface development, and socket-based communication.",
+    technologies: [".NET", "SQL Server"],
+    current: false,
+  },
+  {
+    period: "2022 - 2023",
+    role: "Software Developer",
+    company: "SINAPSIS Research Group Universidad Santo Tomas",
+    description:
+      "Participated in the development of the SACES USTA project, focused on building a web application for managing classified university records, handling user interface design and implementation.",
+    technologies: ["SQL Server", "Javascript", ".NET"],
     current: false,
   },
 ];
