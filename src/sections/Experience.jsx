@@ -10,7 +10,16 @@ const experiences = [
   },
   {
     period: "2024 - 2025",
-    role: "Undergraduate Thesis ",
+    role: "Aviation Simulator Engineer ",
+    company: "Espacio Aereo SAS",
+    description:
+      "I worked at Espacio Aéreo participating in the development of an Airbus A320 flight simulator, performing hardware configuration and integration with the Prepar3D platform. Additionally, I developed modules and control systems using microcontrollers to connect different physical devices to the simulation environment.",
+    technologies: ["Arduino", "Bash", "C"],
+    current: false,
+  },
+  {
+    period: "2024 - 2025",
+    role: "Undergraduate Thesis",
     company: "Monitoring Management System Developer Universidad Santo Tomás",
     description:
       "Developed an automated system for the comprehensive management of the monitor selection, development, and evaluation process at Universidad Santo Tomás, using the Microsoft Power Platform. \n Implemented automated workflows and customized applications that optimized administrative tasks, improved process traceability, and facilitated the evaluation and monitoring of student assistants.",

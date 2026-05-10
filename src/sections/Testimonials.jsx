@@ -2,37 +2,37 @@ import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 import { useState } from "react";
 
 const testimonials = [
+  // {
+  //   quote:
+  //     "",
+
+  //   author: "Hamilton Vasquez",
+  //   role: "Network Operations Manager Azteca Comunicaciones Colombia",
+  //   avatar: "Hamilton_Vasquez.png"
+  // },
+  // {
+  //   quote:
+  //     "",
+
+  //   author: "Dario Segura",
+  //   role: "Professor at Universidad Distrital",
+  //   avatar: "Dario_Segura.png"
+  // },
   {
     quote:
-      "Pedro is one of the most talented engineers I've worked with. His attention to detail and ability to translate complex requirements into elegant solutions is remarkable.",
-    author: "Sarah Chen",
-    role: "CTO, Tech Innovators Inc.",
-    avatar:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
+      "Working with Diego at Espacio Aéreo was a great professional experience. He demonstrated strong analytical and problem-solving skills, delivering effective solutions while standing out for his responsibility, commitment, initiative, teamwork, and willingness to learn.",
+
+    author: "David Perez",
+    role: "Engineering Team Leader at Espacio Aéreo",
+    avatar: "David_Perez.jpeg"
   },
   {
     quote:
-      "Working with Pedro was a game-changer for our project. He delivered ahead of schedule with code quality that set a new standard for our team.",
-    author: "Michael Rodriguez",
-    role: "Product Manager, Digital Solutions",
-    avatar:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop",
-  },
-  {
-    quote:
-      "Pedro's expertise in React and TypeScript helped us rebuild our entire frontend in record time. His architectural decisions continue to pay dividends.",
-    author: "Emily Watson",
-    role: "Engineering Lead, StartUp Labs",
-    avatar:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
-  },
-  {
-    quote:
-      "Not only is Pedro technically brilliant, but he's also a fantastic communicator and team player. He elevated everyone around him.",
-    author: "David Kim",
-    role: "CEO, Innovation Hub",
-    avatar:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
+      "Diego stands out for his strong analytical and problem-solving skills, approaching technical challenges in a structured and efficient manner to develop effective solutions. In addition, he demonstrates a strong learning initiative, critical thinking, and a solid commitment to continuously strengthening his knowledge and professional skills.",
+
+    author: "Daniel Rincón",
+    role: "Co-director of SINAPSIS USTA",
+    avatar: "Daniel_Rincon.jpg"
   },
 ];
 
