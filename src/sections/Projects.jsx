@@ -5,7 +5,7 @@ const projects = [
     title: "AI-based management and creation of network incidents",
     description:
       "A web application designed to facilitate the reporting of incidents occurring in optical fiber networks, as well as their management and resolution through the use of artificial intelligence.",
-    image: "/projects/project_pasantias.png",
+    image: "projects/project_pasantias.png",
     tags: [".NET", "SQL Server", "IA"],
     link: "#",
     github: "https://github.com/DiegoB2212/Proyecto-ACC-NOC.git",
