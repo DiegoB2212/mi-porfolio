@@ -23,6 +23,16 @@ const skills = [
   "Power Platform"
 ];
 
+const handleDownloadCv = () => {
+  const link = document.createElement("a");
+  link.href = encodeURI("/CV Diego Barrera.pdf");
+  link.download = "CV-Diego-Barrera.pdf";
+  link.rel = "noopener";
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
+
 export const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
@@ -89,7 +99,7 @@ export const Hero = () => {
               <Button size="lg" section="contact">
                 Contact Me <ArrowRight className="w-5 h-5" />
               </Button>
-              <AnimatedBorderButton>
+              <AnimatedBorderButton onClick={handleDownloadCv}>
                 <Download className="w-5 h-5" />
                 Download CV
               </AnimatedBorderButton>
