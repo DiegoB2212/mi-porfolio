@@ -13,9 +13,9 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        <About />
         <Projects />
         <Experience />
+        <About />
         <Testimonials />
         <Contact />
       </main>
