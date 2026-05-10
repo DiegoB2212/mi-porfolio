@@ -134,7 +134,7 @@ export const Contact = () => {
               </div>
 
               <div>
-                <label
+                <label 
                   htmlFor="email"
                   type="email"
                   className="block text-sm font-medium mb-2"
