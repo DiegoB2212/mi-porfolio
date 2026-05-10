@@ -25,7 +25,7 @@ const skills = [
 
 const handleDownloadCv = () => {
   const link = document.createElement("a");
-  link.href = encodeURI("/CV Diego Barrera.pdf");
+  link.href = encodeURI("CV Diego Barrera.pdf");
   link.download = "CV-Diego-Barrera.pdf";
   link.rel = "noopener";
   document.body.appendChild(link);
