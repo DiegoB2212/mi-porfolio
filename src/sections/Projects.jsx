@@ -10,15 +10,15 @@ const projects = [
     link: "#",
     github: "https://github.com/DiegoB2212/Proyecto-ACC-NOC.git",
   },
-  // {
-  //   title: "E-Commerce Platform",
-  //   description:
-  //     "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
-  //   image: "/projects/project2.png",
-  //   tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
-  //   link: "#",
-  //   github: "#",
-  // },
+  {
+    title: "Professional Portfolio",
+    description:
+      "This project is my professional portfolio, where I showcase my technical skills, work experience, and developed projects. Its purpose is to present my profile as a developer in a structured way, highlighting key competencies, achievements, and relevant work completed throughout my education and professional journey.",
+    image: "projects/proyect-porfolio.png",
+    tags: ["React", "Tailwind CSS", "Vite"],
+    link: "https://diegob2212.github.io/mi-porfolio/",
+    github: "https://github.com/DiegoB2212/mi-porfolio",
+  },
   // {
   //   title: "AI Writing Assistant",
   //   description:
