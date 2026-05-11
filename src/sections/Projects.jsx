@@ -14,7 +14,7 @@ const projects = [
     title: "Professional Portfolio",
     description:
       "This project is my professional portfolio, where I showcase my technical skills, work experience, and developed projects. Its purpose is to present my profile as a developer in a structured way, highlighting key competencies, achievements, and relevant work completed throughout my education and professional journey.",
-    image: "projects/proyect-porfolio.png",
+    image: "projects/proyect-portfolio.png",
     tags: ["React", "Tailwind CSS", "Vite"],
     link: "https://diegob2212.github.io/mi-porfolio/",
     github: "https://github.com/DiegoB2212/mi-porfolio",
