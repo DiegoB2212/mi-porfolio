@@ -2,14 +2,14 @@ import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 import { useState } from "react";
 
 const testimonials = [
-  // {
-  //   quote:
-  //     "",
+  {
+    quote:
+      "Diego demonstrated a high level of discipline, commitment, and analytical skills. He stood out for his initiative in process automation and his structured approach to identifying issues and proposing efficient solutions. His performance added significant value to the operations team and reflected strong professional potential.",
 
-  //   author: "Hamilton Vasquez",
-  //   role: "Network Operations Manager Azteca Comunicaciones Colombia",
-  //   avatar: "Hamilton_Vasquez.png"
-  // },
+    author: "Hamilton Vasquez",
+    role: "Network Operations Manager Azteca Comunicaciones Colombia",
+    avatar: "Hamilton_Vasquez.png"
+  },
   // {
   //   quote:
   //     "",
@@ -20,7 +20,7 @@ const testimonials = [
   // },
   {
     quote:
-      "Working with Diego at Espacio Aéreo was a great professional experience. He demonstrated strong analytical and problem-solving skills, delivering effective solutions while standing out for his responsibility, commitment, initiative, teamwork, and willingness to learn.",
+      "Working with Diego at Espacio Aéreo was an outstanding professional experience. Throughout our time working together, he consistently demonstrated strong analytical and problem-solving abilities, delivering effective and well-structured solutions. He also distinguished himself through his professionalism, commitment, initiative, collaborative mindset, and continuous willingness to learn and contribute to the team.",
 
     author: "David Perez",
     role: "Engineering Team Leader at Espacio Aéreo",
@@ -28,7 +28,7 @@ const testimonials = [
   },
   {
     quote:
-      "Diego stands out for his strong analytical and problem-solving skills, approaching technical challenges in a structured and efficient manner to develop effective solutions. In addition, he demonstrates a strong learning initiative, critical thinking, and a solid commitment to continuously strengthening his knowledge and professional skills.",
+      "Diego stands out for his strong analytical and problem-solving capabilities, consistently approaching technical challenges with a structured and efficient mindset to deliver effective solutions. Additionally, he demonstrates remarkable initiative for continuous learning, strong critical thinking skills, and a solid commitment to further developing his technical expertise and professional competencies.",
 
     author: "Daniel Rincón",
     role: "Co-director of SINAPSIS USTA",
