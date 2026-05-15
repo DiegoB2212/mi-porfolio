@@ -4,7 +4,7 @@ import { useState } from "react";
 const testimonials = [
   {
     quote:
-      "Diego demonstrated a high level of discipline, commitment, and analytical skills. He stood out for his initiative in process automation and his structured approach to identifying issues and proposing efficient solutions. His performance added significant value to the operations team and reflected strong professional potential.",
+      "Diego demonstrates a proactive attitude and strong adaptability, making him a valuable asset to any engineering or technology team.",
 
     author: "Hamilton Vasquez",
     role: "Network Operations Manager Azteca Comunicaciones Colombia",
